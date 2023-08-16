@@ -17,7 +17,7 @@
     <NuxtChild></NuxtChild>
   </div>
 </template>
-<style scoped>
+<style>
 .parent-container {
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@
   flex-direction: column;
 }
 h1 {
-  color: #e6a23c;
+  /* color: #e6a23c; */
 }
 ul {
   list-style: none;
