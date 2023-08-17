@@ -1,5 +1,5 @@
 <template>
-  <div class="index-container">
+  <div class="container">
     <ul>
       <li>
         <NuxtLink to="/parent"><h3>Nested Pages</h3></NuxtLink>
@@ -19,10 +19,4 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped>
-.index-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</style>
+<style lang="scss"></style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <h1>This is users container</h1>
     <nav>
       <ul>

@@ -1,5 +1,5 @@
 <template>
-  <div class="parent-container">
+  <div class="container">
     <h1>I am the parent view</h1>
     <nav>
       <ul>
@@ -17,26 +17,4 @@
     <NuxtChild></NuxtChild>
   </div>
 </template>
-<style>
-.parent-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-h1 {
-  /* color: #e6a23c; */
-}
-ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-li {
-  margin: 0 0.5rem;
-  padding: 0.25rem;
-  font-size: 1rem;
-}
-</style>
+<style></style>

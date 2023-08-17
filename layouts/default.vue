@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <AppHeader></AppHeader>
     <Nuxt />
   </div>
@@ -7,8 +7,4 @@
 <script setup lang="ts">
 import AppHeader from '../components/AppHeader.vue'
 </script>
-<style>
-* {
-  font-family: monospace;
-}
-</style>
+<style lang="scss"></style>
