@@ -2,7 +2,7 @@
   <div class="container">
     <ul>
       <li>
-        <NuxtLink to="/parent"><h3>Nested Pages</h3></NuxtLink>
+        <nuxt-link to="/parent"><h3>Nested Pages</h3></nuxt-link>
       </li>
       <li>
         <NuxtLink to="/users"><h3>Users Pages</h3></NuxtLink>
